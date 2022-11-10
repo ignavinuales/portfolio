@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ignavinuales.github.io/portfolio/</loc>
-    <lastmod>2022-04-10T11:00:59-04:00</lastmod>
+    <lastmod>2022-11-02T11:00:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://ignavinuales.github.io/portfolio/posts/project-3/</loc>
+    <lastmod>2022-11-02T11:00:59-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -32,7 +37,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ignavinuales.github.io/portfolio/posts/project-3/</loc>
+    <loc>https://ignavinuales.github.io/portfolio/posts/project-4/</loc>
     <lastmod>2022-01-28T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
