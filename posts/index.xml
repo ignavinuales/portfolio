@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://ignavinuales.github.io/portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project 3: Credit Card Customer Segmentation</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/project-3/</link>
+      <title>Project 4: Credit Card Customer Segmentation</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/project-4/</link>
       <pubDate>Wed, 02 Nov 2022 11:00:59 -0400</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/project-3/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/project-4/</guid>
       <description>Market segmentation is the process of breaking a large consumer or company market into smaller consumer groups based on similar characteristics.
 This project aims at segmenting some active credit card holders to help the marketing department to build different strategies for each customer segment. Furthermore, after performing clustering, it is important to identify the customer profile of each cluster. Then,
 Objectives: perform customer segmentation and identify customer profiles.
@@ -21,22 +21,22 @@ Explore and understand the data.</description>
     </item>
     
     <item>
-      <title>Project 2: Predictive Maintenance Classification</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/project-2/</link>
-      <pubDate>Sun, 10 Apr 2022 11:00:59 -0400</pubDate>
+      <title>Project 3: Predictive Maintenance Classification</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/project-3/</link>
+      <pubDate>Thu, 07 Apr 2022 11:00:59 -0400</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/project-2/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/project-3/</guid>
       <description>Brief Description This dataset reflects real predictive maintenance encountered in the industry with measurements from real equipment. The features description is taken directly from the dataset source.
 Objectives:
 Finding insights by doing an Explanatory Data Analysis (EDA). Developing two ML models. One for binary classification to predict Failure or No Failure. One for multiclass classification to predict Type of Failure. Exploring some insights from the results of the models. Challenges:</description>
     </item>
     
     <item>
-      <title>Project 1: Product Price Recommendation</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/project-1/</link>
-      <pubDate>Thu, 07 Apr 2022 10:58:08 -0400</pubDate>
+      <title>Project 2: Product Price Recommendation</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/project-2/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/project-1/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/project-2/</guid>
       <description>This project helps to determine the price of a diamond.
 The dataset for this project contains attributes and prices of around 54,000 diamonds.
 Link to GitHub Repository
@@ -47,11 +47,11 @@ Weight: weight of the diamond. Length (x): length of the diamond.</description>
     </item>
     
     <item>
-      <title>Project 3: Battery RUL Prediction</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/project-4/</link>
+      <title>Project 1: Battery RUL Prediction</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/project-1/</link>
       <pubDate>Fri, 28 Jan 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/project-4/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/project-1/</guid>
       <description>This project was developed as part of my masters degree. Battery Remaining Useful Lifetime (RUL) is an active field of research as batteries have become more important in recent years. The RUL of a battery can be usually estimated by its capacity (mAH). However, what if the capacity cannot be measured and the battery does not deliver real-time information about its current health state? The motivation behind the project is to determine the battery&amp;rsquo;s remaining cycles while it is charged and discharged using only voltage and current.</description>
     </item>
     
