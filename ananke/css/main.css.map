@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/ignaciovinuales/Documents/portfolio",
+	"sourceRoot": "/home/ignacio/ML_Projects/portfolio",
 	"sources": [
 		"ananke/css/main.css"
 	],
