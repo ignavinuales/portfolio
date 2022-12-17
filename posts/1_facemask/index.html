@@ -38,7 +38,7 @@
 <meta itemprop="name" content="1. Web App: Face mask detection">
 <meta itemprop="description" content="Cmputer vision for face mask detection using Yolov7.">
 
-<meta itemprop="wordCount" content="298">
+<meta itemprop="wordCount" content="345">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="1. Web App: Face mask detection"/>
 <meta name="twitter:description" content="Cmputer vision for face mask detection using Yolov7."/>
@@ -191,14 +191,15 @@
 <li>he unlabeled data were manually labelled using <a href="https://roboflow.com/"><em>roboflow</em></a>.</li>
 <li>After researching open-source object detection algorithms, I picked Yolov7. You can access the published paper <a href="https://arxiv.org/abs/2207.02696">here</a>.</li>
 <li>I trained the Yolov7 model on my custom data.</li>
-<li>The deployment was done on Streamlit Cloud services for user testing.</li>
+<li>Measure the model performance and collect new data to improve accuracy/recall. Example: the model was not performing well on incorrectly worn masks. Therefore, I collected and labelled new data from that class and retrained the model.</li>
+<li>After obtaining a well-performing model, the deployment was done on Streamlit Cloud services for user testing.</li>
 </ol>
 <h4 id="results">Results</h4>
-<p>The model obtained a mean average precision (mAP) of 0.747 on the held-out test dataset. The mAP of each class was:</p>
+<p>The model obtained a mean average precision (mAP) of 0.761 on the held-out test dataset. The mAP of each class was:</p>
 <ul>
-<li><em>With mask</em>: 0.905</li>
-<li><em>Without mask</em>: 0.839</li>
-<li><em>Mask worn incorrectly</em>: 0.497.</li>
+<li><em>With mask</em>: 0.944</li>
+<li><em>Without mask</em>: 0.836</li>
+<li><em>Mask worn incorrectly</em>: 0.502.</li>
 </ul>
 <p>So, the global mAP is pulled down by the class <em>mask worn incorrectly</em>. The precision-recall curve is shown below:</p>
 <figure><img src="https://ignavinuales.github.io/portfolio/Images/PR_curve.png" width="550"/>
@@ -210,7 +211,7 @@
 
 <h4 id="conclusion-and-further-work">Conclusion and further work</h4>
 <p>The model performs really well in less crowded places. It could easily be deployed on a building entrance to check if people entering are wearing masks and trigger an alert if they are not.</p>
-<p>Moreover, the model should be retrained using more data of people wearing masks <em>incorrectly</em>, as the mAP for such class was low.</p>
+<p>Moreover, the model should be retrained using even more data of people wearing masks <em>incorrectly</em>, as the mAP for such class was still low on the test data.</p>
 <hr>
 <p>Github : <a href="https://github.com/ignavinuales/facemask_deploy">Link to source code</a></p>
 <ul class="pa0">
