@@ -15,7 +15,8 @@
       <guid>https://ignavinuales.github.io/portfolio/posts/1_nlp_hatespeech/</guid>
       <description>This project aimed at developing an API and Web App that are able to detect hate speech from text. Refer to the GitHub repo for a detailed explanation of the project and code:
 You can also try out the app and give me feedback on the machine learning model performance:
-&amp;ndash; change link to app &amp;ndash; Main technologies used: TensorFlow FastAPI Oracle Cloud Infrastructure (virtual machine for deploying the REST API on Oracle servers) Oracle SQL (Oracle Cloud Database) NLTK (natural language processing) Steps for MLOps Building REST API for model inference.</description>
+I made the API publicly available 😄 You may also want to make an HTTP request at this endpoint:
+144.22.214.61:8000/detect Or even easier, check the FastAPI Swagger UI:</description>
     </item>
     
     <item>

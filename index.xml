@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ignacio&#39;s Data Science Portfolio on Ignacio Vinuales</title>
+    <title>Ignacio&#39;s Portfolio on Ignacio Vinuales</title>
     <link>https://ignavinuales.github.io/portfolio/</link>
-    <description>Recent content in Ignacio&#39;s Data Science Portfolio on Ignacio Vinuales</description>
+    <description>Recent content in Ignacio&#39;s Portfolio on Ignacio Vinuales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://ignavinuales.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +15,8 @@
       <guid>https://ignavinuales.github.io/portfolio/posts/1_nlp_hatespeech/</guid>
       <description>This project aimed at developing an API and Web App that are able to detect hate speech from text. Refer to the GitHub repo for a detailed explanation of the project and code:
 You can also try out the app and give me feedback on the machine learning model performance:
-&amp;ndash; change link to app &amp;ndash; Main technologies used: TensorFlow FastAPI Oracle Cloud Infrastructure (virtual machine for deploying the REST API on Oracle servers) Oracle SQL (Oracle Cloud Database) NLTK (natural language processing) Steps for MLOps Building REST API for model inference.</description>
+I made the API publicly available 😄 You may also want to make an HTTP request at this endpoint:
+144.22.214.61:8000/detect Or even easier, check the FastAPI Swagger UI:</description>
     </item>
     
     <item>
@@ -68,7 +69,8 @@ Explore and understand the data.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ignavinuales.github.io/portfolio/about/</guid>
-      <description>I have always been passionate about data, but my data science and machine learning journey truly started during my master&amp;rsquo;s degree at Fachhochschule Sudwestalen in Germany. As an Industrial Engineer, I became aware of the vast potential that ML and AI have in areas like manufacturing, logistics, and quality, among others. But it felt like the masters was not enough, so I started taking some courses and doing certifications to strengthen my knowledge in the field.</description>
+      <description>I have always been passionate about data. However, my data science and machine learning journey truly started during my master’s degree at Fachhochschule Sudwestalen in Germany, where I became aware of the vast potential of ML and AI. Although I was learning a lot, it felt like the master was insufficient. So I started taking courses and doing certifications to strengthen my knowledge in the field.
+As a part of my motivation to break into the field of ML on a professional level, it seemed like a good idea to share some of my work.</description>
     </item>
     
     <item>
@@ -77,7 +79,7 @@ Explore and understand the data.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ignavinuales.github.io/portfolio/contact/</guid>
-      <description>You can follow me on these social media platforms and contact me by email or linkedin.
+      <description>You can follow me on these social media platforms and contact me by email or LinkedIn.
 Linkedin: https://www.linkedin.com/in/ignaciovinuales/
 Kaggle: https://www.kaggle.com/ignaciovinuales
 Email: vinualesignacio@gmail.com</description>
