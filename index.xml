@@ -8,56 +8,58 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://ignavinuales.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. Face mask detection (Computer Vision)</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/1_facemask/</link>
+      <title>1. Hate speech detection (NLP)</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/1_nlp_hatespeech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/1_facemask/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/1_nlp_hatespeech/</guid>
+      <description>This project aimed at developing an API and Web App that are able to detect hate speech from text. Refer to the GitHub repo for a detailed explanation of the project and code:
+You can also try out the app and give me feedback on the machine learning model performance:
+&amp;ndash; change link to app &amp;ndash; Main technologies used: TensorFlow FastAPI Oracle Cloud Infrastructure (virtual machine for deploying the REST API on Oracle servers) Oracle SQL (Oracle Cloud Database) NLTK (natural language processing) Steps for MLOps Building REST API for model inference.</description>
+    </item>
+    
+    <item>
+      <title>2. Face mask detection (Computer Vision)</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/2_facemask/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignavinuales.github.io/portfolio/posts/2_facemask/</guid>
       <description>This project aimed to create an app to detect people wearing face masks and if they are, whether they are worn correctly or not. The app is deployed on streamlint and you can use and test it by accessing the following link:
 Objectives Automaticately detect people wearing face masks, not wearing masks, and wearing them incorrectly. Methodology First, some of the data were collected from open data sources. Then, I collected some other data by gathering personal photos from 2020 to 2022.</description>
     </item>
     
     <item>
-      <title>2. Diamond Price Recommendation (Regression)</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/2_diamonds/</link>
+      <title>3. Diamond Price Recommendation (Regression)</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/3_diamonds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/2_diamonds/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/3_diamonds/</guid>
       <description>This project aimed to create an app that gives price recommendations for diamonds. You can use and test the app by accessing the following link:
 Furthermore, a Jupyter notebook is available on my Kaggle profile to see a step-by-step, detailed data analysis and check how the ML models were built and compared to each other:
 Objectives Get insights from the data by an explanatory data analysis (EDA). Build a machine learning model capable of recommending diamond prices.</description>
     </item>
     
     <item>
-      <title>3. Predictive Maintenance (Classification)</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/3_maintenance/</link>
+      <title>4. Predictive Maintenance (Classification)</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/4_maintenance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/3_maintenance/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/4_maintenance/</guid>
       <description>The aim of this project was to train and test models that predict machinery failure. Due to the nature of the application, the biggest challenge was dealing with highly imbalanced data. Different techniques for under and over-sampling were used, as well as machine learning balanced models such as balanced random forest and balance bagging.
 Two models were selected, one for binary classification (detects failures and not failure) and the other for multivariate classification, which detects types of failure.</description>
     </item>
     
     <item>
-      <title>4. Credit Card Customer Segmentation (Clustering)</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/4_custumers/</link>
+      <title>5. Credit Card Customer Segmentation (Clustering)</title>
+      <link>https://ignavinuales.github.io/portfolio/posts/5_custumers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ignavinuales.github.io/portfolio/posts/4_custumers/</guid>
+      <guid>https://ignavinuales.github.io/portfolio/posts/5_custumers/</guid>
       <description>Market segmentation is the process of breaking a large consumer or company market into smaller consumer groups based on similar characteristics.
 This project aims at segmenting some active credit card holders to help the marketing department to build different strategies for each customer segment. Furthermore, after performing clustering, it is important to identify the customer profile of each cluster. Then,
 Objectives: perform customer segmentation and identify customer profiles.
 Methodology:
 Explore and understand the data.</description>
-    </item>
-    
-    <item>
-      <title>5. Battery RUL Prediction</title>
-      <link>https://ignavinuales.github.io/portfolio/posts/5_battery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignavinuales.github.io/portfolio/posts/5_battery/</guid>
-      <description>This project was developed as part of my masters degree. Battery Remaining Useful Lifetime (RUL) is an active field of research as batteries have become more important in recent years. The RUL of a battery can usually be estimated by its capacity (mAH). However, what if the capacity cannot be measured and the battery does not deliver real-time information about its current health state? The motivation behind the project is to determine the battery&amp;rsquo;s remaining cycles while it is charged and discharged using only voltage and current.</description>
     </item>
     
     <item>
