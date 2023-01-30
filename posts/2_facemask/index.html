@@ -6,7 +6,7 @@
     
     <title>2. Face mask detection (Computer Vision) | Ignacio Vinuales</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Computer vision for face mask detection using Yolov7.">
+    <meta name="description" content="Computer vision for face mask detection using YOLOv7.">
     <meta name="generator" content="Hugo 0.110.0">
     
     
@@ -30,18 +30,18 @@
     
     
     <meta property="og:title" content="2. Face mask detection (Computer Vision)" />
-<meta property="og:description" content="Computer vision for face mask detection using Yolov7." />
+<meta property="og:description" content="Computer vision for face mask detection using YOLOv7." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ignavinuales.github.io/portfolio/posts/2_facemask/" /><meta property="article:section" content="posts" />
 
 
 <meta itemprop="name" content="2. Face mask detection (Computer Vision)">
-<meta itemprop="description" content="Computer vision for face mask detection using Yolov7.">
+<meta itemprop="description" content="Computer vision for face mask detection using YOLOv7.">
 
-<meta itemprop="wordCount" content="345">
+<meta itemprop="wordCount" content="377">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="2. Face mask detection (Computer Vision)"/>
-<meta name="twitter:description" content="Computer vision for face mask detection using Yolov7."/>
+<meta name="twitter:description" content="Computer vision for face mask detection using YOLOv7."/>
 
 	
   </head>
@@ -123,7 +123,7 @@
           <div class="f2 f1-l fw2 white-90 mb0 lh-title">2. Face mask detection (Computer Vision)</div>
           
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              Computer vision for face mask detection using Yolov7.
+              Computer vision for face mask detection using YOLOv7.
             </div>
           
         
@@ -176,22 +176,31 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy &#39;avenir next&#39; bg-near-white f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>This project aimed to create an app to detect people wearing face masks and if they are, whether they are worn correctly or not. The app is deployed on streamlint and you can use and test it by accessing the following link:</p>
+    <div class="nested-copy-line-height lh-copy &#39;avenir next&#39; bg-near-white f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>This project aimed to retrain a YOLOv7 model to detect people wearing face masks. Moreover, I created and deployed a web app on Streamlit for users to test the model.</p>
+<p>Feel free to try ou the app:</p>
 <p><a href="https://ignavinuales-facemask-deploy-main-evthqf.streamlit.app/"><figure><img src="https://ignavinuales.github.io/portfolio/Images/open_app.png" width="160"/>
 </figure>
 
 </a></p>
+<p>Refer to the GitHub repo to check the code for the project:</p>
+<p><a href="https://github.com/ignavinuales/facemask_deploy"><figure><img src="https://ignavinuales.github.io/portfolio/Images/github.png" width="160"/>
+</figure>
+
+</a></p>
 <h4 id="objectives">Objectives</h4>
+<p>The objective of this project is to use the official pre-trained YOLOv7 model (built on PyTorch) and retrain it on a custom dataset to detect people wearing face masks. The class labels are:</p>
 <ul>
-<li>Automaticately detect people wearing face masks, not wearing masks, and wearing them incorrectly.</li>
+<li>Wearing mask</li>
+<li>Not wearing mask</li>
+<li>Worn incorrectly</li>
 </ul>
 <h4 id="methodology">Methodology</h4>
 <ol>
 <li>First, some of the data were collected from open data sources. Then, I collected some other data by gathering personal photos from 2020 to 2022.</li>
-<li>he unlabeled data were manually labelled using <a href="https://roboflow.com/"><em>roboflow</em></a>.</li>
+<li>The unlabeled data were manually labelled using <a href="https://roboflow.com/"><em>roboflow</em></a>.</li>
 <li>After researching open-source object detection algorithms, I picked Yolov7. You can access the published paper <a href="https://arxiv.org/abs/2207.02696">here</a>.</li>
 <li>I trained the Yolov7 model on my custom data.</li>
-<li>Measure the model performance and collect new data to improve accuracy/recall. Example: the model was not performing well on incorrectly worn masks. Therefore, I collected and labelled new data from that class and retrained the model.</li>
+<li>I measured the model performance and collect new data to improve accuracy/recall. Example: the model was not performing well on incorrectly worn masks. Therefore, I collected and labelled new data from that class and retrained the model.</li>
 <li>After obtaining a well-performing model, the deployment was done on Streamlit Cloud services for user testing.</li>
 </ol>
 <h4 id="results">Results</h4>
@@ -205,12 +214,12 @@
 <figure><img src="https://ignavinuales.github.io/portfolio/Images/PR_curve.png" width="550"/>
 </figure>
 
-<p>Furthermore, the test data includes many complex images with big crowds of people (like the one below), making it hard for the algorithm to detect. Depending on the use case of the model, the precision could be much more higher. If it detects only a few people at a time, it would perform much better.</p>
+<p>Furthermore, the test data includes many complex images with big crowds of people (like the one below), making it hard for the algorithm to detect. Depending on the use case of the model, the precision could be much higher. If it detects only a few people at a time, it would perform better.</p>
 <figure><img src="https://ignavinuales.github.io/portfolio/Images/people_masks.png" width="550"/>
 </figure>
 
 <h4 id="conclusion-and-further-work">Conclusion and further work</h4>
-<p>The model performs really well in less crowded places. It could easily be deployed on a building entrance to check if people entering are wearing masks and trigger an alert if they are not.</p>
+<p>The model performs well in less crowded places. It could easily be deployed on a building entrance to check if people entering are wearing masks and trigger an alert if they are not.</p>
 <p>Moreover, the model should be retrained using even more data of people wearing masks <em>incorrectly</em>, as the mAP for such class was still low on the test data.</p>
 <hr>
 <p>Github : <a href="https://github.com/ignavinuales/facemask_deploy">Link to source code</a></p>

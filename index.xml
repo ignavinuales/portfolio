@@ -25,8 +25,10 @@ I made the API publicly available 😄 You may also want to make an HTTP request
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ignavinuales.github.io/portfolio/posts/2_facemask/</guid>
-      <description>This project aimed to create an app to detect people wearing face masks and if they are, whether they are worn correctly or not. The app is deployed on streamlint and you can use and test it by accessing the following link:
-Objectives Automaticately detect people wearing face masks, not wearing masks, and wearing them incorrectly. Methodology First, some of the data were collected from open data sources. Then, I collected some other data by gathering personal photos from 2020 to 2022.</description>
+      <description>This project aimed to retrain a YOLOv7 model to detect people wearing face masks. Moreover, I created and deployed a web app on Streamlit for users to test the model.
+Feel free to try ou the app:
+Refer to the GitHub repo to check the code for the project:
+Objectives The objective of this project is to use the official pre-trained YOLOv7 model (built on PyTorch) and retrain it on a custom dataset to detect people wearing face masks.</description>
     </item>
     
     <item>
